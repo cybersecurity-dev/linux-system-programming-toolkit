@@ -5,7 +5,7 @@
         </a>
     </p>
 
-# `LSTP` | [Linux System](https://github.com/cybersecurity-dev/awesome-linux-system-programming) Programming Toolkit
+# `LSPT` | [Linux System](https://github.com/cybersecurity-dev/awesome-linux-system-programming) Programming Toolkit
 </div>
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
