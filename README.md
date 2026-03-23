@@ -1,11 +1,11 @@
 <div align="center">
     <p align="center">
-        <a href="https://wikipedia.org/wiki/Systems_programming">
+        <a href="https://github.com/cybersecurity-dev/awesome-linux-system-programming">
           <img width="10%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
         </a>
     </p>
 
-# **`LSPT`** | [Linux System](https://github.com/cybersecurity-dev/awesome-linux-system-programming) Programming Toolkit
+# **`LSPT`** | Linux [System Programming](https://wikipedia.org/wiki/Systems_programming) Toolkit
 </div>
 
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://elixir.bootlin.com/linux/v6.17/source)
