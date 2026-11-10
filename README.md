@@ -69,6 +69,63 @@ flowchart TB
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+```mermaid
+mindmap
+  root((Linux System Programming Toolkit))
+    Development
+      C and C++
+      Rust
+      GCC
+      Clang and LLVM
+      GDB
+    System interfaces
+      System calls
+      glibc and musl
+      POSIX
+      procfs and sysfs
+    Process management
+      fork and execve
+      POSIX threads
+      Signals
+      Scheduling
+    Memory
+      Virtual memory
+      mmap
+      Shared memory
+      Memory allocators
+    IPC
+      Pipes
+      Unix sockets
+      Message queues
+      epoll and eventfd
+    File and device I/O
+      File descriptors
+      inotify
+      io_uring
+      udev
+    Networking
+      BSD sockets
+      TCP and UDP
+      Netlink
+      libevent and libuv
+    Tracing and debugging
+      strace and ltrace
+      ptrace
+      perf and ftrace
+      eBPF
+      BCC and bpftrace
+    Security
+      Capabilities
+      seccomp-bpf
+      Namespaces and cgroups
+      SELinux and AppArmor
+    Build and deployment
+      Make and CMake
+      Meson and Ninja
+      Git
+      DEB and RPM
+      Docker and Podman
+```
 
 ##
 
