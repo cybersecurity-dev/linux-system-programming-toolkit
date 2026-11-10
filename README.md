@@ -1,9 +1,57 @@
 <div align="center">
     <p align="center">
         <a href="https://github.com/cybersecurity-dev/awesome-linux-system-programming">
-          <img width="10%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
+          <img width="7%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
         </a>
     </p>
+
+```mermaid
+flowchart TB
+    DEV["System Programmer"]
+
+    DEV --> LANG["C, C++, Rust and Assembly"]
+    DEV --> BUILD["GCC, Clang, Make and CMake"]
+    DEV --> DEBUG["GDB, strace, perf and bpftrace"]
+
+    LANG --> APP["System Programs"]
+    BUILD --> APP
+
+    APP --> LIB["glibc, musl, pthread and libbpf"]
+    LIB --> SYSCALL["Linux System-Call Interface"]
+
+    SYSCALL --> PROC["Process Management"]
+    SYSCALL --> MEM["Memory Management"]
+    SYSCALL --> FS["Virtual File System"]
+    SYSCALL --> NET["Networking Stack"]
+    SYSCALL --> IPC["IPC and Event Handling"]
+    SYSCALL --> SEC["Security Subsystem"]
+
+    PROC --> KERNEL["Linux Kernel"]
+    MEM --> KERNEL
+    FS --> KERNEL
+    NET --> KERNEL
+    IPC --> KERNEL
+    SEC --> KERNEL
+
+    KERNEL --> DRIVER["Device Drivers"]
+    DRIVER --> HW["CPU, Memory, Storage, Network and Devices"]
+
+    DEBUG -. observes applications .-> APP
+    DEBUG -. traces system calls .-> SYSCALL
+    DEBUG -. instruments kernel .-> KERNEL
+
+    classDef person fill:#172554,color:#ffffff,stroke:#0f172a,stroke-width:3px;
+    classDef user fill:#dbeafe,color:#172554,stroke:#2563eb;
+    classDef boundary fill:#fef3c7,color:#78350f,stroke:#f59e0b,stroke-width:2px;
+    classDef kernel fill:#dcfce7,color:#14532d,stroke:#16a34a;
+    classDef hardware fill:#fee2e2,color:#7f1d1d,stroke:#dc2626;
+
+    class DEV person;
+    class LANG,BUILD,DEBUG,APP,LIB user;
+    class SYSCALL boundary;
+    class PROC,MEM,FS,NET,IPC,SEC,KERNEL,DRIVER kernel;
+    class HW hardware;
+```
 
 # **`LSPT`** | Linux [System Programming](https://wikipedia.org/wiki/Systems_programming) Toolkit
 </div>
@@ -15,7 +63,7 @@
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
